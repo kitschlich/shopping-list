@@ -1,0 +1,18 @@
+.headline {
+	padding: 1em 0;
+}
+
+.item-list {
+	padding: 1em 0;
+	width: 25%;
+	margin: 0 auto;
+}
+
+#example1 {
+	text-decoration: line-through;
+}
+
+#xButton {
+	border: none;
+	background-color: transparent;
+}
