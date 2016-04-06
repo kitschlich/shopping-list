@@ -8,11 +8,11 @@
 	margin: 0 auto;
 }
 
-#example1 {
+.crossed {
 	text-decoration: line-through;
 }
 
-#xButton {
+.remove {
 	border: none;
 	background-color: transparent;
 }

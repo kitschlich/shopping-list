@@ -10,22 +10,24 @@
 <body>
 	<div class="container text-center">
 		<h1 class="headline">Shopping List</h1>
-		<form class="form-inline">
+		<div class="form-inline" id="listForm">
 			<div class="form-group">
 				<input class="form-control" type="text" id="addItem" placeholder="Item...">
 			</div>
-			<button class="btn btn-primary" type="submit" id="addButton">Add</button>
-		</form>
-		<ul class="item-list text-left">
+			<button class="btn btn-primary" id="addButton">Add</button>
+		</div>
+		<ul class="item-list text-left" id="checklist">
 			<li class="checkbox">
-				<label  id="example1"><input type="checkbox" checked>Example item 1</label>
-				<button id="xButton">x</button>
+				<label  class="crossed"><input type="checkbox" checked>Example item 1</label>
+				<button class="remove">x</button>
 			</li>
 			<li class="checkbox">
 				<label><input type="checkbox">Example item 2</label>
-				<button id="xButton">x</button>
+				<button class="remove">x</button>
 			</li>
 		</ul>
 	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
